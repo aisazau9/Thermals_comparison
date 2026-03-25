@@ -1,33 +1,32 @@
  &time_control
  start_year                          = 2009,2009,2009,
  start_month                         = 01,   01, 01,
- start_day                           = 20,   20, 20,
- start_hour                          = 05,   05, 05,
- start_minute                        = 30,   30, 30,
+ start_day                           = 19,   19, 19,
+ start_hour                          = 12,   12, 12,
+ start_minute                        = 00,   00, 00,
  end_year                            = 2009,2009,2009
  end_month                           = 01,   01, 01,
  end_day                             = 20,   20, 20,
- end_hour                            = 06,   06, 06,
+ end_hour                            = 12,   12, 12,
  end_minute                          = 00,   00, 00,
  interval_seconds                    = 3600
  input_from_file                     = .true.,.true., .true.,
- history_interval                    = 60,  1, 1,
+ history_interval                    = 60,  05, 05,
  history_begin                       = 0, 0, 0,
- frames_per_outfile                  = 1, 10, 10,
- restart                             = .true.,
- restart_interval                    = 30,
+ frames_per_outfile                  = 1, 6, 6,
+ restart                             = .false.,
+ restart_interval                    = 120,
  override_restart_timers             = .true.,
  io_form_history                     = 2
  io_form_restart                     = 2
  io_form_input                       = 2
  io_form_boundary                    = 2
- history_outname = '/scratch/up6/ai2733/outputs_CASE2_new/budget/wrfout_d<domain>_<date>',
  nwp_diagnostics                     = 1
  iofields_filename = "myoutfields_d01.txt","myoutfields_d02.txt","myoutfields_d03.txt",
  /
 
  &domains
- time_step                           = 20,
+ time_step                           = 30,
  time_step_fract_num                 = 0,
  time_step_fract_den                 = 1,
  max_dom                             = 3,
