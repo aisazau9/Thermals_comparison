@@ -1,0 +1,36 @@
+&share
+ wrf_core = 'ARW',
+ max_dom = 3,
+ start_date = '2015-12-15_12:00:00','2015-12-15_12:00:00', '2015-12-15_12:00:00',
+ end_date   = '2015-12-16_12:00:00','2015-12-16_12:00:00', '2015-12-16_12:00:00',
+ interval_seconds = 3600
+ active_grid = .true., .true.,.true.,
+/
+
+&geogrid
+ parent_id         =   1,   1, 2,
+ parent_grid_ratio =   1,   5, 5,
+ i_parent_start    =   1,  107, 170,
+ j_parent_start    =   1,  107, 170,
+ e_we              =  324, 541, 1001,
+ e_sn              =  324, 541, 1001,
+ geog_data_res = '30s','30s','30s',
+ dx = 5000,
+ dy = 5000,
+ map_proj = 'lambert',
+ ref_lat   =  -29.50,
+ ref_lon   = 150.0,
+ truelat1  =  -30,
+ truelat2  =  -38,
+ stand_lon = 150.5,
+ geog_data_path = '/g/data/sx70/data/WPS_GEOG_v4'
+/
+
+&ungrib
+ out_format = 'WPS',
+ prefix = 'FILE',
+/
+
+&metgrid
+ fg_name = 'FILE'
+/
