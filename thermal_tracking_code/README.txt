@@ -3,7 +3,7 @@ A. Isaza - 2026
 
 The tracking code was modified to also track descending thermals (with downdrafts = True in *run_tracking*, and up = False in *run_analysis* scripts). 
 
-In this repository, each folder contains the results of the tracking algorithm for each event (subfolder: thermals_all), the results of the composite analysis (subfolder: composite_thermals), and the Python codes used (subfolder: scripts), all run using the scripts in subfolder: jobs. 
+In this repository, each folder contains the results of the tracking algorithm for each event (subfolder: thermals_all), the results of the composite analysis (subfolder: composite_thermals.zip), and the Python codes used (subfolder: scripts), all run using the scripts in subfolder: jobs. 
 
 The scripts in the jobs subfolder were run in the following order:
 
