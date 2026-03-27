@@ -9,6 +9,9 @@ The following data is not included in this repository due to storage constraints
 -> WRF outputs: wrfout_* files
 These are used to run save_wrf_times.py, get_wrf_grid.py and get_wrf_rain.py, and save_profilestime.py
 
+-> WPS outputs: geo_em files
+Used to run get_wrf_domains.py
+
 -> Interpolated WRF grid from tracking code: All_grid.pkl files
 These are used to run get_grid_data.py
 
