@@ -3,3 +3,6 @@
 
 # Ignore large composite thermals zip files
 **/composite_thermals.zip
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
